@@ -1,4 +1,5 @@
 import React from 'react';
+import { Link } from 'react-router-dom';
 import hero from '../assets/hero.svg';
 
 const Home = () => {
@@ -14,12 +15,12 @@ const Home = () => {
             Custom solutions for your business. Whether it's tools, dashboards,
             or full-blown platforms — we got you covered.
           </p>
-          <a
-            href='/contact'
+          <Link
+            to='/contact'
             className='inline-block px-6 py-3 bg-blue-600 text-white rounded-xl shadow-md hover:bg-blue-700 transition'
           >
             Let's Work Together
-          </a>
+          </Link>
         </div>
 
         <img
